@@ -32,7 +32,10 @@ RUN apt-get update && \
             python3-bson \
             python3-yaml \
             python3-boto3 \
-            fonts-liberation && \
+            fonts-liberation \
+            python3-sqlalchemy \
+            python3-pymysql \
+            python3-psycopg2 && \
       # Build
       mkdir -p /code/build && \
       cd /code/build && \

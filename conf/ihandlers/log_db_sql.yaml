@@ -3,4 +3,4 @@
 
 - name: log_db_sql
   config:
-    url: sqlite:///@DIONAEA_STATEDIR@/dionaea.db
+    url: postgresql://username:pasword@host:5432/database?sslmode=disable

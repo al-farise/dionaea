@@ -112,14 +112,14 @@ install_enabled_python_config(
         ftp.yaml
         http.yaml
         memcache.yaml
-        mirror.yaml
+        # mirror.yaml
         mongo.yaml
         mqtt.yaml
         mssql.yaml
         mysql.yaml
         pptp.yaml
         printer.yaml
-        sip.yaml
+        # sip.yaml
         smb.yaml
         tftp.yaml
         upnp.yaml
@@ -137,7 +137,7 @@ install_available_python_config(
         fail2ban.yaml.in
         ftp.yaml
         hpfeeds.yaml
-        log_db_sql.yaml.in
+        log_db_sql.yaml
         log_incident.yaml.in
         log_json.yaml.in
         log_sqlite.yaml.in
@@ -157,10 +157,11 @@ install_enabled_python_config(
     FILES
         cmdshell.yaml
         emuprofile.yaml
-        ftp.yaml
-        log_sqlite.yaml
+        # ftp.yaml
+        # log_sqlite.yaml
+        log_db_sql.yaml
         store.yaml
-        tftp_download.yaml
+        # tftp_download.yaml
 )
 
 ##### IHandler
