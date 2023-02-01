@@ -84,4 +84,5 @@ RUN apt-get update && \
       apt-get clean && \
       rm -rf /code/ /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
+RUN sed -i 's/\r$//' /usr/local/sbin/entrypoint.sh
 ENTRYPOINT ["/usr/local/sbin/entrypoint.sh"]
